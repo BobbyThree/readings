@@ -71,3 +71,13 @@ h1 {
   font-size: 24px;
 }
 }
+
+img {
+  height: 500px;
+  border: groove 10px black;  
+  margin: 25px;
+ }
+
+ main {
+  text-align: center;
+ }
