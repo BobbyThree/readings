@@ -58,18 +58,7 @@ ol {
 }
 
 @media (max-width: 700px) {
-  p {
-    text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;  
-}
-ol {  
-  padding-left: 50px;
-  padding-right: 10px;  
-}
-h1 {
-  font-size: 24px;
-}
+  
 }
 
 img {
@@ -83,13 +72,30 @@ img {
  }
 
  @media (max-width: 700px) {
+  p {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;  
+}
+  ol {  
+    padding-left: 50px;
+    padding-right: 10px;  
+  }
+  h1 {
+    font-size: 24px;
+  }  
   img {
     height: 300px;
     border: groove 5px black;  
     margin: 25px;
    }
-
    .navbar a {
     font-size: 16px;
    }
+ }
+
+ @media (max-width: 450px) {
+  .navbar a {
+    font-size: 10px;
+  }
  }
